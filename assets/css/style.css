@@ -1,0 +1,32 @@
+.article {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+#logo {
+    min-width: 50%;
+    width: 480px;
+    background: url(/assets/images/logo-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    display: inline-block;
+}
+
+#nav {
+    width: 40%;
+    display: inline-block;
+    height: 200px;
+}
+
+#menu {
+    list-style-type: none;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
