@@ -4,7 +4,7 @@
 
 #logo {
     min-width: 630px;
-    background: url(/assets/images/logo-landscape.jpg);
+    background: url(../images/logo-landscape.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 199px;
@@ -33,7 +33,7 @@
 }
 
 #hero-image {
-    background: url(/assets/images/dumbells-landscape.jpg);
+    background: url(../images/dumbells-landscape.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 900px;
@@ -52,7 +52,7 @@
 
 @media only screen and (max-width: 600px) {
     #hero-image {
-      background: url(/assets/images/dumbells-portrait.jpg)
+      background: url(../images/dumbells-portrait.jpg)
     
     }
   }
