@@ -30,6 +30,7 @@ body {
 #text-box p {
     color: gold;
     font-family: 'Roboto Slab', serif;
+    margin-top: 0px;
 }
 
 #text-box {
@@ -85,33 +86,42 @@ body {
 }
 
 @media only screen and (max-width: 1100px) {
-#logo {
-    left: 40%;
-    width: 54.54%;
-    margin-left: -18%;
-    aspect-ratio: 3.17 / 1;
-    height: auto;
-}
+    #logo {
+        left: 40%;
+        width: 54.54%;
+        margin-left: -18%;
+        aspect-ratio: 3.17 / 1;
+        height: auto;
+    }
 
 
-#nav{
-    top: 319px;
-    left: 40%;
-    width: 54.54%;
-    margin-left: -18%;
-}
+    #nav {
+        top: 319px;
+        left: 40%;
+        width: 54.54%;
+        margin-left: -18%;
+        height: auto;
+    }
+
+    #menu{
+        display: inline-flex;
+        padding-left: 19%;
+        padding-top: 0%;
+    }
 }
 
 @media only screen and (max-width: 850px) {
-#text-box {
-    width: auto;
-    left: 120px;
+    #text-box {
+        width: auto;
+        left: 120px;
+        right: 120px;
+    }
 }
-}
+
 @media only screen and (max-width: 730px) {
-#logo{
-    display:inline-block
-}
+    #logo {
+        display: inline-block
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -120,4 +130,10 @@ body {
         height: 900px;
     }
 
-   }
+    #text-box {
+        width: auto;
+        left: 80px;
+        right: 80px;
+    }
+
+}
