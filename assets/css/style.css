@@ -31,7 +31,7 @@ body {
 
 #text-box {
     width: 600px;
-    height: 800px;
+    height: auto;
     padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(0, 0, 0, .7);
@@ -63,14 +63,7 @@ body {
 }
 
 #hero-image {
-<<<<<<< HEAD
     height: 1500px;
-=======
-    background: url(../images/dumbells-landscape.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 900px;
->>>>>>> 12e0ea4d737d7050ff638472f09ef9ff3cdf36b0
     width: 100%;
     position: relative;
     background: url("../images/dumbells-landscape-2400.jpg") no-repeat center center;
@@ -85,13 +78,8 @@ body {
 
 @media only screen and (max-width: 600px) {
     #hero-image {
-<<<<<<< HEAD
-        background: url(../images/dumbells-portrait.jpg) no-repeat center top;
+        background: url("../images/dumbells-portrait.jpg") no-repeat center top;
         height: 900px;
-=======
-      background: url(../images/dumbells-portrait.jpg)
-    
->>>>>>> 12e0ea4d737d7050ff638472f09ef9ff3cdf36b0
     }
 
    }
