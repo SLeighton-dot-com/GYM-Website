@@ -55,6 +55,7 @@ body {
     position: absolute;
     right: 60px;
     top: 60px;
+    min-width: 292px;
 }
 
 #menu {
@@ -69,6 +70,11 @@ body {
 #menu li {
     float: right;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #hero-image {
@@ -103,10 +109,27 @@ body {
         height: auto;
     }
 
-    #menu{
-        display: inline-flex;
-        padding-left: 19%;
-        padding-top: 0%;
+    #menu {
+        padding-left: 0px;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    #menu li{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #nav {
+        top: 280px;
+    }
+    
+    #menu li{
+        margin-right: 30px;
+        margin-left: 30px;
     }
 }
 
@@ -118,9 +141,30 @@ body {
     }
 }
 
+@media only screen and (max-width: 760px) {
+    #nav {
+        top: 240px;
+    }
+
+    #menu li{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
 @media only screen and (max-width: 730px) {
     #logo {
         display: inline-block
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #nav {
+        top: 200px;
+    }
+    #menu li{
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }
 
@@ -136,4 +180,28 @@ body {
         right: 80px;
     }
 
+}
+
+@media only screen and (max-width: 540px) {
+    #nav {
+        top: 180px;
+        left: 35%;
+    }
+
+    #menu li{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    #nav {
+        top: 170px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #nav {
+        top: 160px;
+    }
 }
