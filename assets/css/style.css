@@ -19,15 +19,15 @@ body {
     border: 5px solid gold
 }
 
-#text-box,
-#text-box h2,
-#text-box p {
+#about-box,
+#about-box h2,
+#about-box p {
     color: gold;
     font-family: 'Roboto Slab', serif;
     margin-top: 0px;
 }
 
-#text-box {
+#about-box {
     width: 600px;
     height: auto;
     padding-top: 20px;
@@ -157,7 +157,7 @@ body {
 }
 
 @media only screen and (max-width: 850px) {
-    #text-box {
+    #about-box {
         width: auto;
         left: 120px;
         right: 120px;
@@ -179,7 +179,7 @@ body {
         margin-left: 20px;
     }
 
-    #text-box {
+    #about-box {
         top: 400px;
     }
 
@@ -204,7 +204,7 @@ body {
         margin-left: 10px;
     }
 
-    #text-box {
+    #about-box {
         top: 350px;
     }
 
@@ -219,7 +219,7 @@ body {
         height: 900px;
     }
 
-    #text-box {
+    #about-box {
         width: auto;
         left: 80px;
         right: 80px;
@@ -246,7 +246,7 @@ body {
         margin-left: 10px;
     }
 
-    #text-box {
+    #about-box {
         width: auto;
         left: 60px;
         right: 60px;
@@ -269,7 +269,7 @@ body {
         top: 160px;
     }
 
-    #text-box {
+    #about-box {
         width: auto;
         left: 35px;
         right: 35px;
