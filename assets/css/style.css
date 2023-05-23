@@ -24,31 +24,41 @@ body {
 #about-box p
 #equipment-box,
 #equipment-box h2,
-#equipment-box p {
+#equipment-box p,
+#contact-box,
+#contact-box h2,
+#contact-box p {
     color: gold;
     font-family: 'Roboto Slab', serif;
     margin-top: 0px;
 }
 
 #about-box,
-#equipment-box {
+#equipment-box,
+#contact-box {
     width: 600px;
     height: auto;
     padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(0, 0, 0, .7);
-    top: 450px;
-    right: 120px;
     position: absolute;
     border: 5px solid gold;
+}
+
+#about-box {
+    top: 450px;
+    right: 120px;
 }
 
 #equipment-box {
     top: 450px;
     left: 120px;
-    position: absolute;
 }
 
+#contact-box {
+    top:500px;
+    left: 500px
+}
 
 
 #nav {
@@ -96,6 +106,13 @@ body {
     background: url("../images/equipment-landscape-2400.jpg") no-repeat center center;
 }
 
+#hero-contact {
+    height: 1200px;
+    width: 100%;
+    position: relative;
+    background: url("../images/plates-landscape-2400.jpg") no-repeat center center;
+}
+
 #footer {
     background-color: black;
     border-top: 5px solid gold;
@@ -126,6 +143,12 @@ body {
 
 #socials li a i {
     color: gold;
+}
+
+@media only screen and (max-width: 1200px) {
+    #contact-box{
+        left: 300px;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -160,6 +183,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    #contact-box{
+        left: 200px;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     #nav {
         top: 280px;
@@ -172,6 +201,10 @@ body {
 
     #socials li {
         padding-left: 90px;
+    }
+
+    #contact-box{
+        left: 180px;
     }
 }
 
@@ -192,6 +225,11 @@ body {
 
     #socials li {
         padding-left: 80px;
+    }
+
+    #contact-box{
+        left: 120px;
+        
     }
 }
 
@@ -215,6 +253,13 @@ body {
 
     #socials li {
         padding-left: 65px;
+    }
+
+    #contact-box{
+        left: 100px;
+        right: 100px;
+        width: auto;
+        
     }
 }
 
@@ -241,7 +286,7 @@ body {
     #equipment-box {
         top: 300px;
         left: 60px;
-    right: 60px;
+        right: 60px;
     }
 
     #socials li {
@@ -288,7 +333,6 @@ body {
     }
 
     #about-box {
-        width: auto;
         left: 60px;
         right: 60px;
         top: 320px;
@@ -310,7 +354,12 @@ body {
 
     #equipment-box{
         left: 20px;
-    right: 20px;
+        right: 20px;
+    }
+
+    #contact-box {
+        left: 50px;
+        right: 50px;
     }
 }
 
@@ -332,6 +381,18 @@ body {
 
     #socials li {
         padding-left: 0px;
+    }
+
+    #contact-box {
+        left: 40px;
+        right: 40px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #contact-box {
+    left: 20px;
+    right: 20px;
     }
 }
 
