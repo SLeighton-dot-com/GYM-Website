@@ -133,6 +133,19 @@ body {
     background-attachment: fixed;
 }
 
+.flex-gallery {
+    background-color: rgba(0, 0, 0, .7);
+    top: 350px;
+    right: 60px;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 700px;
+    justify-content: space-evenly;
+}
+
 #footer {
     background-color: black;
     border-top: 5px solid gold;
@@ -163,6 +176,45 @@ body {
     color: gold;
 }
 
+@media only screen and (max-width: 1677px) {
+
+    .flex-picture-13,
+    .flex-picture-12 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1655px) {
+    .flex-picture-11 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1510px) {
+    .flex-picture-9,
+    .flex-picture-10 {
+        display: none;
+    }
+    }
+
+@media only screen and (max-width: 1310px) {
+    .flex-picture-7 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1302px) {
+    .flex-picture-8 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .flex-picture-6 {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1100px) {
     #logo {
         left: 40%;
@@ -172,6 +224,9 @@ body {
         height: auto;
     }
 
+    .flex-gallery {
+        display: none;
+    }
 
     #nav {
         top: 319px;
@@ -195,22 +250,21 @@ body {
     }
 
     #about-box,
-    #equipment-box
-     {
+    #equipment-box {
         top: 450px;
-       
+
     }
 
-    
+
 
     #contact-box,
     #about-box,
-    #equipment-box{
+    #equipment-box {
         left: 22%;
         width: 53.61%;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -227,12 +281,12 @@ body {
         padding-left: 90px;
     }
 
-    #equipment-box{
+    #equipment-box {
         top: 380px;
-       
+
     }
 
-    
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -251,7 +305,7 @@ body {
         padding-left: 80px;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -289,7 +343,7 @@ body {
         display: inline-block
     }
 
-    
+
 }
 
 @media only screen and (max-width: 650px) {
