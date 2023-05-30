@@ -195,10 +195,13 @@ body {
     }
 
     #about-box,
-    #equipment-box {
+    #equipment-box
+     {
         top: 450px;
        
     }
+
+    
 
     #contact-box,
     #about-box,
@@ -225,9 +228,8 @@ body {
     }
 
     #equipment-box{
-        left: 150px;
-        right: 150px;
-        width: auto;
+        top: 380px;
+       
     }
 
     
@@ -240,9 +242,9 @@ body {
     }
 
     #equipment-box {
-        top: 400px;
-        left: 80px;
-        right: 80px;
+        width: auto;
+        left: 140px;
+        right: 140px;
     }
 
     #socials li {
@@ -268,6 +270,8 @@ body {
 
     #equipment-box {
         top: 350px;
+        left: 100px;
+        right: 100px;
     }
 
     #socials li {
@@ -284,6 +288,8 @@ body {
     #logo {
         display: inline-block
     }
+
+    
 }
 
 @media only screen and (max-width: 650px) {
@@ -302,8 +308,8 @@ body {
 
     #equipment-box {
         top: 300px;
-        left: 60px;
-        right: 60px;
+        left: 80px;
+        right: 80px;
     }
 
     #socials li {
@@ -366,6 +372,8 @@ body {
 
     #equipment-box {
         top: 315px;
+        left: 60px;
+        right: 60px;
     }
 
     #contact-box {
@@ -386,8 +394,8 @@ body {
     }
 
     #equipment-box {
-        left: 20px;
-        right: 20px;
+        left: 40px;
+        right: 40px;
     }
 
     #contact-box {
@@ -395,6 +403,14 @@ body {
         left: 40px;
         right: 40px;
     }
+}
+
+@media only screen and (max-width: 440px) {
+    #equipment-box {
+        left: 20px;
+        right: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {
