@@ -1,13 +1,16 @@
 #logo {
     width: 600px;
-    background: url(../images/logo_landscape.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
     height: 189px;
     border: 5px solid gold;
     position: absolute;
     left: 60px;
     top: 60px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
 }
 
 body {
@@ -61,7 +64,17 @@ body {
     left: 500px
 }
 
+#sent{
+    font-size: small;
+    display: none;
+}
+
+#sent:target{
+    display: inline-block;
+}
+
 #nav {
+    z-index: 2;
     width: 300px;
     color: gold;
     background-color: rgba(0, 0, 0, .7);
@@ -109,7 +122,7 @@ body {
 }
 
 #hero-contact {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     position: relative;
     background: url("../images/plates_landscape_2400.jpg") no-repeat center center;
@@ -355,6 +368,8 @@ body {
 
     #contact-box {
         top: 350px;
+        left: 70px;
+        right: 70px;
     }
 }
 
@@ -373,8 +388,9 @@ body {
     }
 
     #contact-box {
-        left: 50px;
-        right: 50px;
+        top: 320px;
+        left: 40px;
+        right: 40px;
     }
 }
 
@@ -399,6 +415,7 @@ body {
     }
 
     #contact-box {
+        top: 310px;
         left: 40px;
         right: 40px;
     }
