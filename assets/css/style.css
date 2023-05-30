@@ -1,6 +1,6 @@
 #logo {
     width: 600px;
-    background: url(../images/logo-landscape.jpg);
+    background: url(../images/logo_landscape.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 189px;
@@ -20,14 +20,15 @@ body {
 }
 
 #about-box,
-#about-box h2,
+#about-box h1,
 #about-box p
 #equipment-box,
-#equipment-box h2,
+#equipment-box h1,
 #equipment-box p,
 #contact-box,
-#contact-box h2,
-#contact-box p {
+#contact-box h1,
+#contact-box p,
+#footer h2 {
     color: gold;
     font-family: 'Roboto Slab', serif;
     margin-top: 0px;
@@ -93,30 +94,29 @@ body {
 }
 
 #hero-about {
-    height: 1500px;
+    height: 100vh;
     width: 100%;
     position: relative;
-    background: url("../images/dumbells-landscape-2400.jpg") no-repeat center center;
+    background: url("../images/dumbells_landscape_2400.jpg") no-repeat center center;
 }
 
 #hero-equipment {
-    height: 1500px;
+    height: 100vh;
     width: 100%;
     position: relative;
-    background: url("../images/equipment-landscape-2400.jpg") no-repeat center center;
+    background: url("../images/equipment_landscape_2400.jpg") no-repeat center center;
 }
 
 #hero-contact {
-    height: 1200px;
+    height: 100vh;
     width: 100%;
     position: relative;
-    background: url("../images/plates-landscape-2400.jpg") no-repeat center center;
+    background: url("../images/plates_landscape_2400.jpg") no-repeat center center;
 }
 
 #footer {
     background-color: black;
     border-top: 5px solid gold;
-    color: gold;
     height: auto;
     padding-left: 20px;
 }
@@ -128,9 +128,7 @@ body {
     margin-bottom: 20px;
 }
 
-#footer h5 {
-    font-family: 'Roboto Slab', serif;
-    color: gold;
+#footer h2 {
     padding-left: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -295,13 +293,18 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    #hero-image {
-        background: url("../images/dumbells-portrait.jpg") no-repeat center top;
+    #hero-about {
+        background: url("../images/dumbells_portrait.jpg") no-repeat center top;
         height: 900px;
     }
 
     #hero-equipment {
-        background: url("../images/equipment-portrait-1200.jpg") no-repeat center top;
+        background: url("../images/equipment_portrait_1200.jpg") no-repeat center top;
+        height: 1800px;
+    }
+
+    #hero-contact {
+        background: url("../images/plates_portrait.jpg") no-repeat center top;
         height: 1800px;
     }
 
@@ -365,7 +368,7 @@ body {
 
 @media only screen and (max-width: 400px) {
     #hero-equipment {
-        background: url("../images/equipment-portrait-1200cr.jpg") no-repeat center top;
+        background: url("../images/equipment_portrait_1200cr.jpg") no-repeat center top;
         height: 2000px;
     }
     
@@ -398,14 +401,14 @@ body {
 
 @media only screen and (max-width: 345px) {
     #hero-equipment {
-        background: url("../images/equipment-portrait-1200cr.jpg") no-repeat center top;
+        background: url("../images/equipment_portrait_1200cr.jpg") no-repeat center top;
         height: 2400px;
     }
 }
 
 @media only screen and (max-width: 290px) {
     #hero-equipment {
-        background: url("../images/equipment-portrait-1200cr.jpg") no-repeat center top;
+        background: url("../images/equipment_portrait_1200cr.jpg") no-repeat center top;
         height: 2600px;
     }
 }
