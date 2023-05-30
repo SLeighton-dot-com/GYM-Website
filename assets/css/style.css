@@ -61,7 +61,6 @@ body {
     left: 500px
 }
 
-
 #nav {
     width: 300px;
     color: gold;
@@ -98,13 +97,15 @@ body {
     width: 100%;
     position: relative;
     background: url("../images/dumbells_landscape_2400.jpg") no-repeat center center;
+    background-attachment: fixed;
 }
 
 #hero-equipment {
-    height: 100vh;
+    height: 1600px;
     width: 100%;
     position: relative;
     background: url("../images/equipment_landscape_2400.jpg") no-repeat center center;
+    background-attachment: fixed;
 }
 
 #hero-contact {
@@ -112,6 +113,7 @@ body {
     width: 100%;
     position: relative;
     background: url("../images/plates_landscape_2400.jpg") no-repeat center center;
+    background-attachment: fixed;
 }
 
 #footer {
@@ -258,6 +260,7 @@ body {
         left: 100px;
         right: 100px;
         width: auto;
+        top: 400px;
         
     }
 }
@@ -306,13 +309,17 @@ body {
 
     #hero-contact {
         background: url("../images/plates_portrait.jpg") no-repeat center top;
-        height: 1800px;
+        height: 900px;
     }
 
     #about-box {
         width: auto;
         left: 80px;
         right: 80px;
+    }
+
+    #about-box,
+    #contact-box {
         top: 300px;
     }
 
@@ -344,6 +351,10 @@ body {
 
     #equipment-box{
         top: 315px;
+    }
+
+    #contact-box {
+        top: 350px;
     }
 }
 
