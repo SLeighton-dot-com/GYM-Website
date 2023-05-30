@@ -7,7 +7,7 @@
     top: 60px;
 }
 
-img{
+img {
     max-width: 100%;
     max-height: 100%;
     display: block;
@@ -24,8 +24,7 @@ body {
 
 #about-box,
 #about-box h1,
-#about-box p
-#equipment-box,
+#about-box p #equipment-box,
 #equipment-box h1,
 #equipment-box p,
 #contact-box,
@@ -40,7 +39,6 @@ body {
 #about-box,
 #equipment-box,
 #contact-box {
-    width: 600px;
     height: auto;
     padding-top: 20px;
     padding-left: 10px;
@@ -49,27 +47,33 @@ body {
     border: 5px solid gold;
 }
 
+#about-box,
+#contact-box {
+    width: 600px;
+}
+
 #about-box {
-    top: 450px;
-    right: 120px;
+    top: 350px;
+    right: 60px;
 }
 
 #equipment-box {
-    top: 450px;
-    left: 120px;
+    width: 590px;
+    top: 350px;
+    left: 60px;
 }
 
 #contact-box {
-    top:500px;
-    left: 500px
+    top: 450px;
+    left: 30%
 }
 
-#sent{
+#sent {
     font-size: small;
     display: none;
 }
 
-#sent:target{
+#sent:target {
     display: inline-block;
 }
 
@@ -159,12 +163,6 @@ body {
     color: gold;
 }
 
-@media only screen and (max-width: 1200px) {
-    #contact-box{
-        left: 300px;
-    }
-}
-
 @media only screen and (max-width: 1100px) {
     #logo {
         left: 40%;
@@ -195,12 +193,21 @@ body {
         margin-right: 40px;
         margin-left: 40px;
     }
-}
 
-@media only screen and (max-width: 1000px) {
-    #contact-box{
-        left: 200px;
+    #about-box,
+    #equipment-box {
+        top: 450px;
+       
     }
+
+    #contact-box,
+    #about-box,
+    #equipment-box{
+        left: 22%;
+        width: 53.61%;
+    }
+
+    
 }
 
 @media only screen and (max-width: 900px) {
@@ -217,22 +224,23 @@ body {
         padding-left: 90px;
     }
 
-    #contact-box{
-        left: 180px;
+    #equipment-box{
+        left: 150px;
+        right: 150px;
+        width: auto;
     }
+
+    
 }
 
 @media only screen and (max-width: 850px) {
     #about-box {
-        width: auto;
-        left: 120px;
         right: 120px;
         top: 450px;
     }
 
     #equipment-box {
         top: 400px;
-        width: auto;
         left: 80px;
         right: 80px;
     }
@@ -241,10 +249,7 @@ body {
         padding-left: 80px;
     }
 
-    #contact-box{
-        left: 120px;
-        
-    }
+    
 }
 
 @media only screen and (max-width: 760px) {
@@ -269,12 +274,9 @@ body {
         padding-left: 65px;
     }
 
-    #contact-box{
-        left: 100px;
-        right: 100px;
-        width: auto;
+    #contact-box {
         top: 400px;
-        
+
     }
 }
 
@@ -362,12 +364,13 @@ body {
         top: 320px;
     }
 
-    #equipment-box{
+    #equipment-box {
         top: 315px;
     }
 
     #contact-box {
         top: 350px;
+        width: auto;
         left: 70px;
         right: 70px;
     }
@@ -382,7 +385,7 @@ body {
         padding-left: 25px;
     }
 
-    #equipment-box{
+    #equipment-box {
         left: 20px;
         right: 20px;
     }
@@ -399,7 +402,7 @@ body {
         background: url("../images/equipment_portrait_1200cr.jpg") no-repeat center top;
         height: 2000px;
     }
-    
+
     #nav {
         top: 160px;
     }
@@ -423,8 +426,8 @@ body {
 
 @media only screen and (max-width: 350px) {
     #contact-box {
-    left: 20px;
-    right: 20px;
+        left: 20px;
+        right: 20px;
     }
 }
 
