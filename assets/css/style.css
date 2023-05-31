@@ -109,6 +109,10 @@ body {
     color: inherit;
 }
 
+#menu a:hover {
+    border: 1px gold solid;
+}
+
 #hero-about {
     height: 100vh;
     width: 100%;
@@ -191,11 +195,12 @@ body {
 }
 
 @media only screen and (max-width: 1510px) {
+
     .flex-picture-9,
     .flex-picture-10 {
         display: none;
     }
-    }
+}
 
 @media only screen and (max-width: 1310px) {
     .flex-picture-7 {
@@ -241,7 +246,6 @@ body {
         padding-top: 0px;
         display: flex;
         justify-content: center;
-
     }
 
     #menu li {
@@ -255,16 +259,12 @@ body {
 
     }
 
-
-
     #contact-box,
     #about-box,
     #equipment-box {
         left: 22%;
         width: 53.61%;
     }
-
-
 }
 
 @media only screen and (max-width: 900px) {
@@ -283,10 +283,7 @@ body {
 
     #equipment-box {
         top: 380px;
-
     }
-
-
 }
 
 @media only screen and (max-width: 850px) {
@@ -304,8 +301,6 @@ body {
     #socials li {
         padding-left: 80px;
     }
-
-
 }
 
 @media only screen and (max-width: 760px) {
@@ -334,7 +329,6 @@ body {
 
     #contact-box {
         top: 400px;
-
     }
 }
 
@@ -342,8 +336,6 @@ body {
     #logo {
         display: inline-block
     }
-
-
 }
 
 @media only screen and (max-width: 650px) {
@@ -406,7 +398,6 @@ body {
 @media only screen and (max-width: 540px) {
     #nav {
         top: 180px;
-
     }
 
     #menu {
@@ -464,7 +455,6 @@ body {
         left: 20px;
         right: 20px;
     }
-
 }
 
 @media only screen and (max-width: 400px) {
