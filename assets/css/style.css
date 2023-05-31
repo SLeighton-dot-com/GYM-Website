@@ -57,9 +57,17 @@ body {
 
 #about-box,
 #contact-box,
-#thanks-box,
 #error-box {
     width: 600px;
+}
+
+#thanks-box {
+    width: 400px;
+}
+
+#thanks-box h1,
+#thanks-box p {
+    text-align: center;
 }
 
 #about-box {
@@ -82,15 +90,6 @@ body {
 #error-box {
     top: 450px;
     left: 22%;
-}
-
-#sent {
-    font-size: small;
-    display: none;
-}
-
-#sent:target {
-    display: inline-block;
 }
 
 #nav {
@@ -145,16 +144,9 @@ body {
     background-attachment: fixed;
 }
 
-#hero-contact {
-    height: 1000px;
-    width: 100%;
-    position: relative;
-    background: url("../images/plates_landscape_2400.jpg") no-repeat center center;
-    background-attachment: fixed;
-}
-
 #hero-thanks,
-#hero-error {
+#hero-error,
+#hero-contact {
     height: 1000px;
     width: 100%;
     position: relative;
@@ -182,18 +174,18 @@ body {
     padding-left: 20px;
 }
 
-#socials {
-    display: inline-block;
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
 #footer h2 {
     padding-left: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: medium;
+}
+
+#socials {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 #socials li {
@@ -205,46 +197,54 @@ body {
     color: gold;
 }
 
+/* This media query removes two pictures that overflow onto the footer when the screen width reaches 1677px */
 @media only screen and (max-width: 1677px) {
-
     .flex-picture-13,
     .flex-picture-12 {
         display: none;
     }
 }
 
+/* This media query removes one picture that overflow onto the footer when the screen width reaches 1655px */
 @media only screen and (max-width: 1655px) {
     .flex-picture-11 {
         display: none;
     }
 }
 
+/* This media query removes two pictures that overflow onto the footer when the screen width reaches 1510px */
 @media only screen and (max-width: 1510px) {
-
     .flex-picture-9,
     .flex-picture-10 {
         display: none;
     }
 }
 
+/* This media query removes one picture that overflow onto the footer when the screen width reaches 1310px */
 @media only screen and (max-width: 1310px) {
     .flex-picture-7 {
         display: none;
     }
 }
 
+/* This media query removes one picture that overflow onto the footer when the screen width reaches 1302px */
 @media only screen and (max-width: 1302px) {
     .flex-picture-8 {
         display: none;
     }
 }
 
+/* This media query removes one picture that overflow onto the footer when the screen width reaches 1280px */
 @media only screen and (max-width: 1280px) {
     .flex-picture-6 {
         display: none;
     }
 }
 
+/* This media query moves the logo Div from the top left of the screen to a central postion, removes the 
+flexbox on the right hand side of the screen to free up space, places the navigation Div under the logo 
+in a central position, arranges the links side by side and moves all text boxes to the middle of the 
+screen aligned with the logo and navigation Divs when the screen width reaches 1100px */
 @media only screen and (max-width: 1100px) {
     #logo {
         left: 40%;
@@ -281,11 +281,12 @@ body {
     #about-box,
     #equipment-box {
         top: 450px;
-
     }
+
     #thanks-box {
         width: 53.31%;
     }
+
     #error-box,
     #contact-box,
     #about-box,
@@ -295,6 +296,9 @@ body {
     }
 }
 
+/* This media query move the navigation Div up the pages bringing it closer to the logo Div, moves the 
+navigation links and social media links closer together and moves the text box on equipment.html up the page 
+when the screen width reaches 900px */
 @media only screen and (max-width: 900px) {
     #nav {
         top: 280px;
@@ -314,12 +318,10 @@ body {
     }
 }
 
+/* This media query increases the width of the text box on equipment.html page allowing it to take up less 
+space at the bottom of the page, this media query also moves the social media links in the footer closer 
+together when the screen width reaches 850px */
 @media only screen and (max-width: 850px) {
-    #about-box {
-        right: 120px;
-        top: 450px;
-    }
-
     #equipment-box {
         width: auto;
         left: 140px;
@@ -331,6 +333,8 @@ body {
     }
 }
 
+/* This media query moves navigation Div and the text boxes on all 5 HTML pages up the page, it makes the 
+social media and menu links closer together when the screen width reaches 760px */
 @media only screen and (max-width: 760px) {
     #nav {
         top: 240px;
@@ -362,12 +366,9 @@ body {
     }
 }
 
-@media only screen and (max-width: 730px) {
-    #logo {
-        display: inline-block
-    }
-}
-
+/* This media query moves the navigation Div up the pages, it moves the menu and social media links closer 
+together andmoves the text boxes on equipment.html and about.html up the page when the screen width reaches 
+650px */
 @media only screen and (max-width: 650px) {
     #nav {
         top: 200px;
@@ -393,6 +394,9 @@ body {
     }
 }
 
+/* This media query changes the backgrounds on all 5 HTML pages, specifying new background heights, makes 
+the text box on about.html page wider, moves the text box on the other 4 HTML pages up the page and moves 
+the social media links closer together when the screen width reaches 600px */
 @media only screen and (max-width: 600px) {
     #hero-about {
         background: url("../images/dumbells_portrait.jpg") no-repeat center top;
@@ -429,6 +433,9 @@ body {
     }
 }
 
+/* This media query moves the navigation Div up the pages, changes the format of the navigation menu, 
+it moves the text boxes on all 5 HTML pages up the page and increases the width of 4 of the text boxes 
+when the screen width reaches 540px */
 @media only screen and (max-width: 540px) {
     #nav {
         top: 180px;
@@ -436,11 +443,6 @@ body {
 
     #menu {
         display: grid;
-    }
-
-    #menu li {
-        margin-right: 10px;
-        margin-left: 10px;
     }
 
     #about-box {
@@ -468,6 +470,9 @@ body {
     }
 }
 
+/* This media query moves the navigation Div up the pages, moves the social media links closer together,
+it moves the text boxes on 3 HTML pages up the page and increases the width the text box on equipment.html
+page when the screen width reaches 490px */
 @media only screen and (max-width: 490px) {
     #nav {
         top: 170px;
@@ -494,6 +499,8 @@ body {
     }
 }
 
+/* This media query increases the width of the text box on equipment.html page when the screen width 
+reaches 440px */
 @media only screen and (max-width: 440px) {
     #equipment-box {
         left: 20px;
@@ -501,6 +508,9 @@ body {
     }
 }
 
+/* This media query moves the navigation Div up the pages, moves the social media links closer together, 
+it moves the text boxes on 3 of the HTML pages up the page, it also increases the width of 3 of the text 
+boxes and changes the background on equipment.html page when the screen width reaches 400px */
 @media only screen and (max-width: 400px) {
     #hero-equipment {
         background: url("../images/equipment_portrait_1200cr.jpg") no-repeat center top;
@@ -533,6 +543,8 @@ body {
     }
 }
 
+/* This media query increases the width of the text boxes on 404.html and contact.html pages when the 
+screen width reaches 350px */
 @media only screen and (max-width: 350px) {
     #error-box,
     #contact-box {
@@ -541,16 +553,9 @@ body {
     }
 }
 
+/* This media query increases the height of the equipment.html page when the screen width reaches 345px */
 @media only screen and (max-width: 345px) {
     #hero-equipment {
-        background: url("../images/equipment_portrait_1200cr.jpg") no-repeat center top;
-        height: 2400px;
-    }
-}
-
-@media only screen and (max-width: 290px) {
-    #hero-equipment {
-        background: url("../images/equipment_portrait_1200cr.jpg") no-repeat center top;
-        height: 2600px;
+        height: 2200px;
     }
 }
