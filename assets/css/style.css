@@ -1,3 +1,4 @@
+/* This sets the dimensions, border and position for the logo Div */
 #logo {
     width: 600px;
     height: 189px;
@@ -7,12 +8,14 @@
     top: 60px;
 }
 
+/* This sets the dimensions and display setting for the background image */
 img {
     max-width: 100%;
     max-height: 100%;
     display: block;
 }
 
+/* This sets the border arround the page and ensures it is fully visable */
 body {
     margin-left: 1px;
     margin-right: 1px;
@@ -22,6 +25,7 @@ body {
     border: 5px solid gold
 }
 
+/* This sets the font family, font color across all of the dialog */
 #about-box,
 #about-box h1,
 #about-box p #equipment-box,
@@ -42,6 +46,7 @@ body {
     margin-top: 0px;
 }
 
+/* This sets the border and position for Div holding dialog */
 #about-box,
 #equipment-box,
 #contact-box,
@@ -55,43 +60,51 @@ body {
     border: 5px solid gold;
 }
 
+/* This sets the width of 3 of the Divs holding dialog */
 #about-box,
 #contact-box,
 #error-box {
     width: 600px;
 }
 
+/* This sets the width of the Divs holding the thank you message on thanks.html */
 #thanks-box {
     width: 400px;
 }
 
+/* This centers the thank you message text on thanks.html */
 #thanks-box h1,
 #thanks-box p {
     text-align: center;
 }
 
+/* This sets the position of the Div holding the About Us dialog on index.html */
 #about-box {
     top: 350px;
     right: 60px;
 }
 
+/* This sets the width and position of the Div holding dialog on equipment.html */
 #equipment-box {
     width: 590px;
     top: 350px;
     left: 60px;
 }
 
+/* This sets the position of the Div holding dialog and input form on contact.html */
 #contact-box {
     top: 450px;
     left: 30%;
 }
 
+/* This sets the position of the Div holding dialog on thanks.html and 404.html */
 #thanks-box,
 #error-box {
     top: 450px;
     left: 22%;
 }
 
+/* This sets the width, height, position and styling of the navigation section across the 5 HTML pages*/
 #nav {
     z-index: 2;
     width: 300px;
@@ -105,6 +118,7 @@ body {
     top: 60px;
 }
 
+/* This sets the styling of the menu across the 5 HTML pages */
 #menu {
     list-style-type: none;
     padding-top: 30px;
@@ -114,20 +128,18 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-#menu li {
-    float: right;
-    margin-right: 30px;
-}
-
+/* This sets the styling of the menu <a> tags across the 5 HTML pages */
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
+/* Additional styling of the menu <a> tags across the 5 HTML pages */
 #menu a:hover {
     border: 1px gold solid;
 }
 
+/* Sets the background for index.html page */
 #hero-about {
     height: 1000px;
     width: 100%;
@@ -136,6 +148,7 @@ body {
     background-attachment: fixed;
 }
 
+/* Sets the background for equipment.html page */
 #hero-equipment {
     height: 1600px;
     width: 100%;
@@ -144,6 +157,7 @@ body {
     background-attachment: fixed;
 }
 
+/* Sets the background for thanks.html, 404.html and contact.html pages */
 #hero-thanks,
 #hero-error,
 #hero-contact {
@@ -154,6 +168,7 @@ body {
     background-attachment: fixed;
 }
 
+/* Sets the position, styling and size of the flexbox on equipment.html */
 .flex-gallery {
     background-color: rgba(0, 0, 0, .7);
     top: 350px;
@@ -167,6 +182,7 @@ body {
     justify-content: space-evenly;
 }
 
+/* This styles the footer across all 5 HTML pages */
 #footer {
     background-color: black;
     border-top: 5px solid gold;
@@ -174,6 +190,7 @@ body {
     padding-left: 20px;
 }
 
+/* This styles the footer header across all 5 HTML pages */
 #footer h2 {
     padding-left: 15px;
     margin-top: 10px;
@@ -181,6 +198,7 @@ body {
     font-size: medium;
 }
 
+/* This styles the social media links across all 5 HTML pages */
 #socials {
     display: inline-block;
     list-style-type: none;
@@ -188,11 +206,13 @@ body {
     margin-bottom: 20px;
 }
 
+/* Additional styling of the social media links across all 5 HTML pages */
 #socials li {
     display: inline-block;
     padding-left: 100px;
 }
 
+/* This sets the color of the social media link <a> tags across all 5 HTML pages */
 #socials li a i {
     color: gold;
 }
@@ -367,7 +387,7 @@ social media and menu links closer together when the screen width reaches 760px 
 }
 
 /* This media query moves the navigation Div up the pages, it moves the menu and social media links closer 
-together andmoves the text boxes on equipment.html and about.html up the page when the screen width reaches 
+together andmoves the text boxes on equipment.html and index.html up the page when the screen width reaches 
 650px */
 @media only screen and (max-width: 650px) {
     #nav {
@@ -395,7 +415,7 @@ together andmoves the text boxes on equipment.html and about.html up the page wh
 }
 
 /* This media query changes the backgrounds on all 5 HTML pages, specifying new background heights, makes 
-the text box on about.html page wider, moves the text box on the other 4 HTML pages up the page and moves 
+the text box on index.html page wider, moves the text box on the other 4 HTML pages up the page and moves 
 the social media links closer together when the screen width reaches 600px */
 @media only screen and (max-width: 600px) {
     #hero-about {
