@@ -503,7 +503,7 @@ the social media links closer together when the screen width reaches 600px */
     }
 }
 
-/* This media query changes the display layout of the menu items at 551px */
+/* This media query changes the display layout of the menu items and moves text box down the page at 551px */
 @media only screen and (max-width: 551px) {
     #menu {
         display: -ms-grid;
