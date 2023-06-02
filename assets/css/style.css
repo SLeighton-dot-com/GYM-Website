@@ -503,17 +503,20 @@ the social media links closer together when the screen width reaches 600px */
     }
 }
 
+/* This media query changes the display layout of the menu items at 551px */
+@media only screen and (max-width: 551px) {
+    #menu {
+        display: -ms-grid;
+        display: grid;
+    }
+}
+
 /* This media query moves the navigation Div up the pages, changes the format of the navigation menu, 
 it moves the text boxes on all 5 HTML pages up the page and increases the width of 4 of the text boxes 
 when the screen width reaches 540px */
 @media only screen and (max-width: 540px) {
     #nav {
         top: 180px;
-    }
-
-    #menu {
-        display: -ms-grid;
-        display: grid;
     }
 
     #about-box {
