@@ -233,8 +233,8 @@ body {
     color: gold;
 }
 
-/* This media query removes two pictures that overflow onto the footer when the screen width reaches 1677px */
-@media only screen and (max-width: 1677px) {
+/* This media query removes two pictures that overflow onto the footer when the screen width reaches 1694px */
+@media only screen and (max-width: 1694px) {
 
     .flex-picture-13,
     .flex-picture-12 {
@@ -242,15 +242,15 @@ body {
     }
 }
 
-/* This media query removes one picture that overflow onto the footer when the screen width reaches 1655px */
-@media only screen and (max-width: 1655px) {
+/* This media query removes one picture that overflow onto the footer when the screen width reaches 1672px */
+@media only screen and (max-width: 1672px) {
     .flex-picture-11 {
         display: none;
     }
 }
 
-/* This media query removes two pictures that overflow onto the footer when the screen width reaches 1510px */
-@media only screen and (max-width: 1510px) {
+/* This media query removes two pictures that overflow onto the footer when the screen width reaches 1527px */
+@media only screen and (max-width: 1527px) {
 
     .flex-picture-9,
     .flex-picture-10 {
@@ -258,22 +258,16 @@ body {
     }
 }
 
-/* This media query removes one picture that overflow onto the footer when the screen width reaches 1310px */
-@media only screen and (max-width: 1310px) {
-    .flex-picture-7 {
-        display: none;
-    }
-}
-
-/* This media query removes one picture that overflow onto the footer when the screen width reaches 1302px */
-@media only screen and (max-width: 1302px) {
+/* This media query removes two pictures that overflow onto the footer when the screen width reaches 1324px */
+@media only screen and (max-width: 1324px) {
+    .flex-picture-7,
     .flex-picture-8 {
         display: none;
     }
 }
 
-/* This media query removes one picture that overflow onto the footer when the screen width reaches 1280px */
-@media only screen and (max-width: 1280px) {
+/* This media query removes one picture that overflow onto the footer when the screen width reaches 1297px */
+@media only screen and (max-width: 1297px) {
     .flex-picture-6 {
         display: none;
     }
