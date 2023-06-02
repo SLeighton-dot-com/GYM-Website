@@ -68,6 +68,11 @@ body {
     border: 5px solid gold;
 }
 
+#equipment-box h2 {
+    font-size: large;
+    margin-bottom: inherit;
+}
+
 /* This sets the width of 3 of the Divs holding dialog */
 #about-box,
 #contact-box,
@@ -261,6 +266,7 @@ body {
 
 /* This media query removes two pictures that overflow onto the footer when the screen width reaches 1324px */
 @media only screen and (max-width: 1324px) {
+
     .flex-picture-7,
     .flex-picture-8 {
         display: none;
@@ -330,6 +336,13 @@ screen aligned with the logo and navigation Divs when the screen width reaches 1
     #equipment-box {
         left: 22%;
         width: 53.61%;
+    }
+}
+
+/* This media query adds extra height to the background image */
+@media only screen and (max-width: 1020px) {
+    #hero-equipment {
+        height: 1750px;
     }
 }
 
@@ -442,7 +455,8 @@ the social media links closer together when the screen width reaches 600px */
 
     #hero-equipment {
         background: url("../images/equipment_portrait_1200.jpg") no-repeat center top;
-        height: 1800px;
+        background-attachment: fixed;
+        height: 1850px;
     }
 
     #hero-contact,
