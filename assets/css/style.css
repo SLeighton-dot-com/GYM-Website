@@ -143,6 +143,11 @@ body {
     top: 60px;
 }
 
+/* This gives the submit button a little space underneath it */
+#button {
+    margin-bottom: 10px;
+}
+
 /* This sets the styling of the menu across the 5 HTML pages */
 #menu {
     list-style-type: none;
