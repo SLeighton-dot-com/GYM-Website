@@ -241,7 +241,6 @@ body {
 
 /* This media query removes two pictures that overflow onto the footer when the screen width reaches 1694px */
 @media only screen and (max-width: 1694px) {
-
     .flex-picture-13,
     .flex-picture-12 {
         display: none;
@@ -257,7 +256,6 @@ body {
 
 /* This media query removes two pictures that overflow onto the footer when the screen width reaches 1527px */
 @media only screen and (max-width: 1527px) {
-
     .flex-picture-9,
     .flex-picture-10 {
         display: none;
@@ -266,7 +264,6 @@ body {
 
 /* This media query removes two pictures that overflow onto the footer when the screen width reaches 1324px */
 @media only screen and (max-width: 1324px) {
-
     .flex-picture-7,
     .flex-picture-8 {
         display: none;
@@ -292,7 +289,6 @@ screen aligned with the logo and navigation Divs when the screen width reaches 1
         aspect-ratio: 3.17 / 1;
         height: auto;
     }
-
     .flex-gallery {
         display: none;
     }
@@ -598,7 +594,6 @@ boxes and changes the background on equipment.html page when the screen width re
 /* This media query increases the width of the text boxes on 404.html and contact.html pages when the 
 screen width reaches 350px */
 @media only screen and (max-width: 350px) {
-
     #error-box,
     #contact-box {
         left: 20px;
@@ -606,8 +601,8 @@ screen width reaches 350px */
     }
 }
 
-/* This media query increases the height of the equipment.html page when the screen width reaches 345px */
-@media only screen and (max-width: 345px) {
+/* This media query increases the height of the equipment.html page when the screen width reaches 361px */
+@media only screen and (max-width: 361px) {
     #hero-equipment {
         height: 2200px;
     }
