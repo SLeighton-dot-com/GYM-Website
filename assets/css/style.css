@@ -335,7 +335,7 @@ screen aligned with the logo and navigation Divs when the screen width reaches 1
     }
 }
 
-/* This media query adds extra height to the background image */
+/* This media query adds extra height to the background image when the screen width reaches 1020px */
 @media only screen and (max-width: 1020px) {
     #hero-equipment {
         height: 1750px;
@@ -604,6 +604,6 @@ screen width reaches 350px */
 /* This media query increases the height of the equipment.html page when the screen width reaches 361px */
 @media only screen and (max-width: 361px) {
     #hero-equipment {
-        height: 2200px;
+        height: 2300px;
     }
 }
