@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* This sets the dimensions, border and position for the logo Div */
 #logo {
     width: 600px;
@@ -123,6 +130,7 @@ body {
     list-style-type: none;
     padding-top: 30px;
     padding-left: 115px;
+    display: -ms-grid;
     display: grid;
     line-height: 30px;
     font-family: 'Roboto Slab', serif;
@@ -174,11 +182,19 @@ body {
     top: 350px;
     right: 60px;
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     max-width: 1200px;
     margin-left: 700px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
@@ -219,6 +235,7 @@ body {
 
 /* This media query removes two pictures that overflow onto the footer when the screen width reaches 1677px */
 @media only screen and (max-width: 1677px) {
+
     .flex-picture-13,
     .flex-picture-12 {
         display: none;
@@ -234,6 +251,7 @@ body {
 
 /* This media query removes two pictures that overflow onto the footer when the screen width reaches 1510px */
 @media only screen and (max-width: 1510px) {
+
     .flex-picture-9,
     .flex-picture-10 {
         display: none;
@@ -289,7 +307,11 @@ screen aligned with the logo and navigation Divs when the screen width reaches 1
     #menu {
         padding-left: 0px;
         padding-top: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -430,7 +452,7 @@ the social media links closer together when the screen width reaches 600px */
 
     #hero-contact,
     #hero-thanks,
-    #hero-404 {
+    #hero-error {
         background: url("../images/plates_portrait.jpg") no-repeat center top;
         height: 900px;
     }
@@ -462,6 +484,7 @@ when the screen width reaches 540px */
     }
 
     #menu {
+        display: -ms-grid;
         display: grid;
     }
 
@@ -566,6 +589,7 @@ boxes and changes the background on equipment.html page when the screen width re
 /* This media query increases the width of the text boxes on 404.html and contact.html pages when the 
 screen width reaches 350px */
 @media only screen and (max-width: 350px) {
+
     #error-box,
     #contact-box {
         left: 20px;
