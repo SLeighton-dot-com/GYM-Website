@@ -509,6 +509,10 @@ the social media links closer together when the screen width reaches 600px */
         display: -ms-grid;
         display: grid;
     }
+
+    #equipment-box{
+        top: 340px;
+    }
 }
 
 /* This media query moves the navigation Div up the pages, changes the format of the navigation menu, 
