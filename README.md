@@ -2,7 +2,7 @@
 
 [View the live project here.](https://sleighton-dot-com.github.io/GYM-Website/)
 
-This is the main information website for a gym called Do Something Great. It is designed to be responsive and accessible on a various of devices, making it easy to navigate for people new wantings to join the gym.
+This is the main information website for a gym called Do Something Great. It is designed to be responsive and accessible on a various of devices, making it easy to navigate for new visitors wantings to join the gym or returning visitors wanting to find out more information.
 
 <h2 align="center"><img src="assets/images/responsive.png"></h2>
 
@@ -48,9 +48,9 @@ This is the main information website for a gym called Do Something Great. It is 
     -   404 Error Page Wireframe - [View](https://github.com/SLeighton-dot-com/GYM-Website/blob/main/assets/Wireframes/404%20Error%20Page.pdf)
 ## Features
 
--   Responsive on all device sizes down to a screen width of 320px
+-   Responsive on various device sizes down to a screen width of 320px.
 
--   Interactive menu items
+-   Interactive menu items.
 
 ## Technologies Used
     
@@ -59,6 +59,8 @@ This is the main information website for a gym called Do Something Great. It is 
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+For This project I stuck with pure HTML and CSS to showcase my ability write my own custom code.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -76,8 +78,8 @@ This is the main information website for a gym called Do Something Great. It is 
     - CodeAnywhere was used for the IDE platform for the website development.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/SLeighton-dot-com/GYM-Website/tree/main/assets/Wireframes) during the design process.
-1. [Favicon Generator:](https://balsamiq.com/)
-    - Favicon Generator was used to create the [Favicons](https://www.favicon-generator.org/) for the website.
+1. [Favicon Generator:](https://www.favicon-generator.org/)
+    - Favicon Generator was used to create the [Favicons](https://github.com/SLeighton-dot-com/GYM-Website/tree/main/assets/favicon) for the project.
 
 ## Testing
 
