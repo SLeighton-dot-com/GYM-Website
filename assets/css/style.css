@@ -489,11 +489,11 @@ the social media links closer together when the screen width reaches 600px */
         width: auto;
         left: 80px;
         right: 80px;
+        top: 340px;
     }
 
     #thanks-box,
     #error-box,
-    #about-box,
     #contact-box {
         top: 300px;
     }
