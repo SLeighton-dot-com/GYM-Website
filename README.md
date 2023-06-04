@@ -30,11 +30,13 @@ This is the main information website for a gym called Do Something Great. It is 
        
     *   ### Design
         -   #### Colour Scheme
-            -   The two main colours used are gold and black for a contrasting site with black and white photos providing a moody aesthetic.
-        -   #### Typography
-            -   The Roboto Slab font is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The Roboto Slab font embodies a sophisticated look that grabs the viewer's attention through its seamless fusion of solidity and beauty.
+            - The two main colours used are gold and black for a contrasting site with black and white photos providing a moody aesthetic.
+            ![Palette of colours used](assets/images/palette.png "Palette of colours used")
+        -   #### Fonts
+            - The Roboto Slab font is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The Roboto Slab font embodies a sophisticated look that grabs the viewer's attention through its seamless fusion of solidity and beauty.
         -   #### Imagery
-            -   The large background hero image is intended to be eye-catching and draw users in. It is also relevant to the type of venue the site is for. 
+            - The large background hero image is intended to be eye-catching and draw users in. It is also relevant to the type of venue the site is for. 
+            - All text boxes and navigation menu backgrounds as semi-transparent, the background images can be seen through them but they have been darkened to enable the text to be read.
 
     *   ### Wireframes
 
@@ -50,16 +52,18 @@ This is the main information website for a gym called Do Something Great. It is 
 
     - Responsive on various device sizes down to a screen width of 320px.
     - A clean and simple navigation menu to aid users in moving about the site, with simple to understand menu items for quick referencing to select the correct link for where the user wants to go.
-    - Interactive menu items and social media links provide interactivity to users.
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
+    - Interactive menu items and social media links provide interactivity to users.<br>
+    ![Navigation Menu](assets/images/menu_screenshot.png "Navigation Menu")
     - Media queries are used to keep the project responsive, from large High Definition pc monitors down to small mobile phone displays.
     - Flexbox to adjust the gallery width on the equipment.html page to fit the space available and to hide images as the space decreases.
-    - Favicon icons have been added to give the project a more professional look and to aid a user in finding the site among many open tabs.
+    - Favicon icons have been added to give the project a more professional look and to aid a user in finding the site among many open tabs. <br>
+    ![The Do Something Great Favicon Icon](assets/images/favicon_screenshot.jpg "The Do Something Great Favicon Icon")
     - A floating text box over the background that contains site information content is responsive for the width of the screen.
     - A consistent footer that is recognisable across the project aiding in usability.
-    - Font Awesome icons have been added to give the users a sense of familiarity with where the links will take them.
-    - Including an input form in the contact.html for asking any questions that the user may have gives the user a sense of being welcome to the venue.
+    - Font Awesome icons have been added to give the users a sense of familiarity with where the links will take them.<br>
+    ![Footer with social media links](assets/images/footer_screenshot.png "Footer with social media links")
+    - Including an input form in the contact.html for asking any questions that the user may have gives the user a sense of being welcome to ask questions.<br>
+    ![Form for users to send questions](assets/images/form_screenshot.png "Form for users to send questions")
     - Added a link at the end of the About Us section to prompt users to progress through the site.
 
 ---
