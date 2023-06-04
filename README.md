@@ -6,6 +6,8 @@ This is the main information website for a gym called Do Something Great. It is 
 
 <h2 align="center"><img src="assets/images/responsive.png"></h2>
 
+---
+
 * ## User Experience (UX)
 
     *   ### User stories
@@ -46,6 +48,8 @@ This is the main information website for a gym called Do Something Great. It is 
 
         -   404 Error Page Wireframe - [View](https://github.com/SLeighton-dot-com/GYM-Website/blob/main/assets/Wireframes/404%20Error%20Page.pdf)
 
+---
+
 *   ## Features
 
     - Responsive on various device sizes down to a screen width of 320px.
@@ -67,6 +71,8 @@ This is the main information website for a gym called Do Something Great. It is 
     - Font Awesome icons have been added to give the users a sense of familiarity in where the links will take them.
 
     - Including an input form in the contact.html for asking any questions that the user may have gives the user a sense of being welcome to the venue.
+
+---
 
 * ## Technologies Used
     
@@ -96,6 +102,8 @@ This is the main information website for a gym called Do Something Great. It is 
         - Balsamiq was used to create the [wireframes](https://github.com/SLeighton-dot-com/GYM-Website/tree/main/assets/Wireframes) during the design process.
         8. [Favicon Generator:](https://www.favicon-generator.org/)
         - Favicon Generator was used to create the [Favicons](https://github.com/SLeighton-dot-com/GYM-Website/tree/main/assets/favicon) for the project.
+
+---
 
 * ## Testing
 
@@ -156,16 +164,24 @@ This is the main information website for a gym called Do Something Great. It is 
 
     * ### General Testing
 
-        -   The Website was tested on Google Chrome, Microsoft Edge, Mozilla Firefox and Opera browsers at various screen widths, all relating to certain viewing devices.
+        -   The Website was tested on Google Chrome, Microsoft Edge, Mozilla Firefox, Apple Safari and Opera browsers at various screen widths, all relating to certain viewing devices.
 
-            |   Screen size   | Chrome | Firefox  | Opera | 
-            | :-------------: |:-------------:| :-----:| ---|
-            | col 3 is      | right-aligned | $1600 | |
-            | col 2 is      | centered      |   $12 | |
-            | zebra stripes | are neat      |    $1 | |
+            |  Screen size | Device  | Chrome + Edge+ Firefox + Opera + Safari | 
+            | :-----------: | :---: | :---: |
+            | 360px | Galaxy S8+ | Displaying and Responsive |
+            | 393px | Pixel 5 | Displaying and Responsive |
+            | 414px | iPhone XR | Displaying and Responsive |
+            | 540px | Surface Duo | Displaying and Responsive |
+            | 667px | iPhone SE (landscape) | Displaying and Responsive |
+            | 768px | iPad Mini | Displaying and Responsive |
+            | 820px | iPad Air | Displaying and Responsive |
+            | 912px | Surface Pro 7 | Displaying and Responsive |
+            | 1024px | iPad Mini (landscape) | Displaying and Responsive |
+            | 1280px | Laptop/Desktop | Displaying and Responsive |
+            | 1920px | HD Laptop/Desktop | Displaying and Responsive |
 
-        -   The website was viewed on a Desktop, Tablet & Android Phone as part of my testing.
-        -   To make sure that all pages linked successfully, a lot of testing was done.
+        -   The website was viewed on a Desktop, Android Tablet & Android Phone as part of my testing.
+        -   I asked friends to view the project on Apple products and let me know how it looked and to try all links across the site.
 
     * ### Fixed Bugs
 
@@ -176,6 +192,8 @@ This is the main information website for a gym called Do Something Great. It is 
         -   ???
         -   ???
         -   ???
+
+---
 
 * ## Deployment
 
@@ -216,6 +234,8 @@ This is the main information website for a gym called Do Something Great. It is 
         ```
 
         6. Press Enter. Your local clone will be created.
+
+---
 
 * ## Credits
 
